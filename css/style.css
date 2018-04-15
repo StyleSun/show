@@ -146,9 +146,7 @@ body {
     z-index:999;
 }
 .back a{text-decoration: none;}
-*{
-	will-change: transform;
-}
+
 .line{
 	-webkit-animation:lani 1s ease;
 	animation:lani 1s ease;
