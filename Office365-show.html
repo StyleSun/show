@@ -179,6 +179,8 @@
       animateEndCir();
       animateEndTri();
       musicPlay();
+      var animationDiv = $(".ani");
+      var animateDivTri = $('.triangle');
       var mySwiper = new Swiper ('.swiper-container', {
         width : window.innerWidth,
         height : window.innerHeight,
@@ -191,6 +193,8 @@
         }, 
         onSlideChangeEnd: function(swiper){ 
             swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            animationDiv.removeClass("rotate-cir");
+            animateDivTri.removeClass("tri-ani");
         }
       })
     </script>
