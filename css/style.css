@@ -86,7 +86,6 @@ body,html {
 }
 
 body {
-	max-width: 320px;
 	-webkit-text-size-adjust: 100%!important;
 	line-height: 1.6;
 	-webkit-user-select: none
